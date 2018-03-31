@@ -1,0 +1,23 @@
+# Site
+title: Lilo.Think
+subtitle: 
+
+# URL
+url: http://www.lilothink.it
+baseurl: /
+permalink: :title/
+include: ['_pages']
+
+# Build settings
+markdown: kramdown
+port: 4444
+future: true
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
